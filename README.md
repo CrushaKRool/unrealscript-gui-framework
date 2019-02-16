@@ -6,13 +6,11 @@ The original topic for this framework on the old Epic Games forum can be found h
 https://forums.epicgames.com/udk/udk-development/udk-programming-and-unrealscript/244032-canvas-based-gui-framework-in-unrealscript-community-code-project
 
 # Canvas-based GUI Framework in UnrealScript
-----------------------------------------------
 Pure UnrealScript implementation of a simple framework for creating graphical user interfaces in Unreal Engine 3 / Unreal Development Kit.
 
 This project provides GUIComponents and the base for a GUI that relies entirely on UnrealScript and the classic Canvas to create interactive menus. The "officially supported" way of creating menus is to use Adobe Flash, Scaleform and ActionScript, but not every smalltime developer may wish to spend money on the full Adobe Suite for that - hence why this is a free alternative with the benefit of keeping everything in one place.
 
 # Documentation
------------------------------------------------
 A full documentation and examples of this system can be found in the Wiki. The GUIFrameworkExample package also contains a ready-to use example gametype that adds a small menu using this framework.
 
 Anyway, here is a basic quick start overview about the most important concepts:
@@ -37,7 +35,6 @@ Anyway, here is a basic quick start overview about the most important concepts:
 
 
 # Workflow
----------------------------------------
 It may be tricky to find the correct values to put into the properties of your GUIComponents if you just see things in code view at all times. To compensate for that, you should make use of the Remote Control feature (https://udn.epicgames.com/Three/RemoteControl.html) that the Unreal Engine provides.
 
 Find your MenuScene in the properties of your HUD/PlayerController in the Actors menu and change the properties of your components there to see the effects in real time. Just don't forget to update the DefaultProperties in your source code after you found the right values.
