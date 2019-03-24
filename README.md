@@ -2,9 +2,6 @@ This project was originally hosted at https://code.google.com/archive/p/unrealsc
 
 I have now moved it to GitHub to make it easier for people to fork it, but I won't maintain the project myself since my days of working with the UDK are long time gone. I started the project and later got help from the user "thommie". The original commit history (as much of it as Google Code still provides) are included in my first commit to this repo for reference.
 
-The original topic for this framework on the old Epic Games forum can be found here:
-https://forums.epicgames.com/udk/udk-development/udk-programming-and-unrealscript/244032-canvas-based-gui-framework-in-unrealscript-community-code-project
-
 # Canvas-based GUI Framework in UnrealScript
 Pure UnrealScript implementation of a simple framework for creating graphical user interfaces in Unreal Engine 3 / Unreal Development Kit.
 
