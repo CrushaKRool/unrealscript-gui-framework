@@ -28,10 +28,10 @@ Anyway, here is a basic quick start overview about the most important concepts:
 
 - **GUIVisualComponent** is the base class of all components that use textures, like buttons, background images and so on. (This might be refactored to comply more with the system of GUIMultiComponents, which is something used in UT2k4's GUI code. Basically speaking, it's a component that is made of several sub components, for instance a button out of a component that handles the "collision", one that handles the visuals and another one that handles the text label.)
 
-- The way textures can be stretched in the Canvas allows for some nice lossless scaling, provided that the textures were especially designed to work with that approach: It simply repeats the pixels that are in the middle of the texture, so you always have the same edges at high resolution and don't lose any detail if your middle part is equally colored anyway. See http://udn.epicgames.com/Two/CanvasReference.html#DrawTileStretched
+- The way textures can be stretched in the Canvas allows for some nice lossless scaling, provided that the textures were especially designed to work with that approach: It simply repeats the pixels that are in the middle of the texture, so you always have the same edges at high resolution and don't lose any detail if your middle part is equally colored anyway. See https://api.unrealengine.com/udk/Two/CanvasReference.html#DrawTileStretched
 
 
 # Workflow
-It may be tricky to find the correct values to put into the properties of your GUIComponents if you just see things in code view at all times. To compensate for that, you should make use of the Remote Control feature (https://udn.epicgames.com/Three/RemoteControl.html) that the Unreal Engine provides.
+It may be tricky to find the correct values to put into the properties of your GUIComponents if you just see things in code view at all times. To compensate for that, you should make use of the Remote Control feature (https://api.unrealengine.com/udk/Three/RemoteControl.html) that the Unreal Engine provides.
 
 Find your MenuScene in the properties of your HUD/PlayerController in the Actors menu and change the properties of your components there to see the effects in real time. Just don't forget to update the DefaultProperties in your source code after you found the right values.
